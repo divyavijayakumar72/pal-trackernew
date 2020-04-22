@@ -45,6 +45,6 @@ jobs:
       env:
         CF_API_URL: ${{ secrets.CF_API_URL }}
         CF_ORG: ${{ secrets.CF_ORG }}
-        CF_SPACE: ${{ secrets.CF_SPACE }}
+        CF_SPACE: ${{ secrets.CFapi__SPACE }}
         CF_USERNAME: ${{ secrets.CF_USERNAME }}
         CF_PASSWORD: ${{ secrets.CF_PASSWORD }}
