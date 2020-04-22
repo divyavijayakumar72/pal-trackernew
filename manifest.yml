@@ -2,9 +2,8 @@ applications:
   - name: pal-tracker
     path: build/libs/pal-tracker.jar
     routes:
-      - route: divyanew.cfapps.io
-#        pal-tracker-divya.cfapps.io
+      - route: pal-tracker-divya.cfapps.io
 
     env:
-      WELCOME_MESSAGE: "Hello from the review environmen"
+      WELCOME_MESSAGE: "Hello from the review environment"
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
